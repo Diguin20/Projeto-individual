@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+    background-image:linear-gradient(#F6B243,#F25D07,#05A6A6,#F2F2F2,#0D0D0D)
+}
+#primeira_imagem{
+    padding: 147px 250px 147px 0  ;
+    background-image: url(imagens/Design\ sem\ nome\ \(7\).png);
+
+
+}
+#menu{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+#menu li{
+    color: white;
+    display: inline
+}
+#menu li a{
+    color: #F2D399;
+    display: inline-flex;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    color:black;
+    background-color: #F2D399;
+}
+#menu li a:visited{
+    color:none;
+}
+#rede_social{
+    width:100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    min-height:50px;
+    box-shadow:0px 5px 5px 2px rgb(0, 0, 0, 0.5);
+    background-image: linear-gradient(#F6B243,#F2F2F2);
+
+}
+#insta{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+#twitter{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+@media(max-width:610px){
+    body{
+        background-color: #F2D399;
+        background-image:linear-gradient(#F2D399,#BF9649) ;
+    }
+    #primeira_imagem{
+        background-image: url(imagens/pela\ adoção\ responsável\ de\ pets.png);
+    }
+}
+@media(max-width:400px){
+    body{
+        background-color: #F2D399;
+        background-image:linear-gradient(#F2D399,#BF9649) ;
+    }
+    #primeira_imagem{
+        background-image: url(imagens/Design\ sem\ nome\ \(8\).png);
+    }
+    #container_imagens{
+        display: inline;
+        position: relative;
+        left: 60%;
+    }
+}
